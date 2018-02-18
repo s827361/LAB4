@@ -114,10 +114,10 @@ public void buttoncmclicked(View view){
 
                     break;
                 case "Client2":
-                    setContentsOfTextView(R.id.result, p2.toString1());
+                    setContentsOfTextView(R.id.result2, p2.toString1());
                     break;
                 case "Client3":
-                    setContentsOfTextView(R.id.result, p3.toString1());
+                    setContentsOfTextView(R.id.result3, p3.toString1());
                     break;
             }
 
@@ -131,12 +131,13 @@ public void buttoncmclicked(View view){
 
                     break;
                 case "Client2":
-                    setContentsOfTextView(R.id.result, p2.toString2());
+                    setContentsOfTextView(R.id.result2, p2.toString2());
                     break;
                 case "Client3":
-                    setContentsOfTextView(R.id.result, p3.toString2());
+                    setContentsOfTextView(R.id.result3, p3.toString2());
                     break;
             }
+            break;
 
 
         case "Transaction":
@@ -146,10 +147,10 @@ public void buttoncmclicked(View view){
 
                     break;
                 case "Client2":
-                    setContentsOfTextView(R.id.result, p2.toString2());
+                    setContentsOfTextView(R.id.result2, p2.toString2());
                     break;
                 case "Client3":
-                    setContentsOfTextView(R.id.result, p3.toString2());
+                    setContentsOfTextView(R.id.result3, p3.toString2());
                     break;
 
             }
@@ -159,13 +160,14 @@ public void buttoncmclicked(View view){
 
                     break;
                 case "Client2":
-                    setContentsOfTextView(R.id.result, p2.toString1());
+                    setContentsOfTextView(R.id.result2, p2.toString1());
                     break;
                 case "Client3":
-                    setContentsOfTextView(R.id.result, p3.toString1());
+                    setContentsOfTextView(R.id.result3, p3.toString1());
                     break;
 
             }
+            break;
 
 
 
