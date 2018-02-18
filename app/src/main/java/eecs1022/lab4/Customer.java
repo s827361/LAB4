@@ -6,7 +6,7 @@ package eecs1022.lab4;
 public class Customer
 {
     private String Name;
-    private String service;
+
 
 
 
@@ -40,30 +40,6 @@ public class Customer
         double qq = this.getAccount().getBalance();
         String qqq = String.format("%.2f",qq);
         s += "Client" + this.Name + "has balance"+ qqq;
-        return s;
-
-    }
-    public String toString1(){
-        String s = "";
-        double a = this.getAccount().getBalance();
-        double b = this.getAccount().getAmt();
-        double c = a + b;
-        String cc = String.format("%.2f",c);
-        s += "Client" + this.Name + "has balance"+ cc;
-
-
-        return s;
-
-    }
-    public String toString2(){
-        String s = "";
-        double a = this.getAccount().getBalance();
-        double b = this.getAccount().getAmt();
-        double c = a - b;
-        String cc = String.format("%.2f",c);
-        s += "Client" + this.Name + "has balance"+ cc;
-
-
         return s;
 
     }

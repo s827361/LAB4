@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="eecs1022.lab4.LAB4Activity">
+    tools:context="eecs1022.lab4.LAB4Activity"
+    android:onClick="buttoncmclicked">
 
     <TextView
         android:layout_width="wrap_content"
