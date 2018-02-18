@@ -10,11 +10,13 @@ public class Customerx
     private Accountx accountx;
     private String from;
     private String to;
-    public Customerx (String n, String s, String f, String t){
+    private double amt;
+    public Customerx (String n, String s, String f, String t,double am){
         this.Name = n;
         this.service = s;
         this.from=f;
         this.to= t;
+        this.amt=am;
     }
 
     public String getFrom()
@@ -69,10 +71,11 @@ public class Customerx
     public String toString1(){
         String s = "";
 
-             s = "";
-            double a = this.getAccountx().getBalance();
-            double b = this.getAccountx().getAmt();
-            double c = a - b;
+
+            this.getAccountx().withdraw(amt);
+
+            double c = this.getAccountx().getBalance();
+        this.getAccountx().setBalance(c);
             String cc = String.format("%.2f", c);
             s += "Client" + this.Name + "has balance" + cc;
 
@@ -86,11 +89,13 @@ public class Customerx
     }
     public String toString2(){
         String s = "";
-        double a = this.getAccountx().getBalance();
-        double b = this.getAccountx().getAmt();
-        double c = a + b;
+        this.getAccountx().deposit(amt);
+
+        double c = this.getAccountx().getBalance();
+        this.getAccountx().setBalance(c);
         String cc = String.format("%.2f", c);
         s += "Client" + this.Name + "has balance" + cc;
+
         return s;
     }
 }

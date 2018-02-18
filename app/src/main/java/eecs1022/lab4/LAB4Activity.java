@@ -92,9 +92,9 @@ public void buttoncmclicked(View view){
     double in11 = Double.parseDouble(in1);
     double in22 = Double.parseDouble(in2);
     double in33 = Double.parseDouble(in3);
-    Customerx p1 = new Customerx (Name1,se,from,to);
-    Customerx p2 = new Customerx(Name2,se,from,to);
-    Customerx p3 = new Customerx (Name3,se,from,to);
+    Customerx p1 = new Customerx (Name1,se,from,to,amt);
+    Customerx p2 = new Customerx(Name2,se,from,to,amt);
+    Customerx p3 = new Customerx (Name3,se,from,to,amt);
     Accountx a1 = new Accountx(in11,amt);
     Accountx a2 = new Accountx(in22,amt);
     Accountx a3 = new Accountx(in33,amt);
