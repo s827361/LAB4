@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">LAB4</string>
+    <string-array name="S1">
+        <item>Deposit</item>
+        <item>Withdraw</item>
+        <item>Transaction</item>
+    </string-array>
+    <string-array name="S2">
+        <item></item>
+        <item>Client1</item>
+        <item>Client2</item>
+        <item>Client3</item>
+    </string-array>
+    <string-array name="S3">
+        <item></item>
+        <item>Client1</item>
+        <item>Client2</item>
+        <item>Client3</item>
+    </string-array>
 </resources>

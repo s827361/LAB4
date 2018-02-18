@@ -25,9 +25,9 @@ public class Account
 
     private double balance;
 
-    public Account ( double init_balance, double aamt){
+    public Account ( double init_balance){
         this.balance = init_balance;
-        this.amt=aamt;
+
     }
     public double getBalance(){
         return balance;
