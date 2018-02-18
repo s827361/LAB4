@@ -198,7 +198,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/Name3"
-        android:layout_alignEnd="@+id/Name3"/>
+        android:layout_alignEnd="@+id/Name3"
+        android:onClick="buttoncmclicked"/>
 
     <TextView
         android:layout_width="wrap_content"
